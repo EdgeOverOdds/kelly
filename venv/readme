@@ -1,0 +1,4 @@
+Small program to visualize the growth in a bankroll when wagering using the kelly criterion. 
+
+Visualizes waging via kelly, 2x kelly, or 1/2 kelly.
+
