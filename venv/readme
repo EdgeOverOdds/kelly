@@ -1,4 +1,9 @@
 Small program to visualize the growth in a bankroll when wagering using the kelly criterion. 
 
-Visualizes waging via kelly, 2x kelly, or 1/2 kelly.
+where kelly criterion is (BP - Q) / B
+b = decimal odds - 1
+p = probabiliy of success
+q = probability of failure
+
+Visualizes waging using kelly, 2x kelly, or 1/2 kelly strategies
 
