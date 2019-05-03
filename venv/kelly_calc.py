@@ -30,8 +30,8 @@ def outcome(p):
 def bet(wager, bankroll):
     return (wager * bankroll)
 
-def main(bankroll, outcome, multiplier = 1):
-    amount = kelly_wager(p, 1)
+def main(bankroll,  outcome, multiplier = 1):
+    amount = kelly_wager(p, b)
     winnings = bet(amount, bankroll) * multiplier * outcome
     bankroll = bankroll + winnings
     return bankroll
@@ -41,7 +41,7 @@ bankroll_kelly = 100
 bankroll_half_kelly = 100
 bankroll_twokelly = 100
 
-leg = ['kelly', '1/2 kelly', '2x kelly']
+legend = ['kelly', '1/2 kelly', '2x kelly']
 
 if __name__ == '__main__':
     k_profit = []
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     plt.plot(k_profit)
     plt.plot(hk_profit)
     plt.plot(tk_profit)
-    plt.legend(leg)
+    plt.legend(legend)
     plt.show()
 
 
